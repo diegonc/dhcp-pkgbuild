@@ -23,7 +23,8 @@ _patches=(
 	hurd.dpatch
 	netmask-overflow.dpatch
 	server-clientid-crash.dpatch
-	remove-usr-references.patch )
+	remove-usr-references.patch
+	ifconfig-binary-name.patch )
 
 _ldap_patches=(
 	dhcp-3.1.0-ldap-docs.dpatch
@@ -49,6 +50,8 @@ md5sums=('6ee8af8b283c95b3b4db5e88b6dd9a26'
          'b5f0b7bc38ed349a00850b6df7482809'
          '8fe3864b1adb2c838342aee14bd2a385'
          '3209d3a27f77c9b88621dc1defe42da0'
+         '1db8087ef7af351bcf3a0103631756be'
+
          'b6fc2286f97cc7d2d50e6e4582b43b78'
          '67510d86c180f77ba979549547039da6'
          'dc89374074500052e271e5b2305c51bd'
